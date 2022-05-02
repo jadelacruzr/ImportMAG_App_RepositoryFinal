@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "45785477896",
+    "project_id": "importmag-9275f",
+    "storage_bucket": "importmag-9275f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45785477896:android:91f5224b1f71d7d4c932bd",
+        "android_client_info": {
+          "package_name": "com.importmag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45785477896-b3pfvgha2dnicgerq7eskdetc51s5kbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLgDKX2x0KroqPL7Rr2oOAoi49EET66H4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45785477896-b3pfvgha2dnicgerq7eskdetc51s5kbn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "45785477896-3qj3rtt6bujno4djevvr684cdqdtjult.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.importmag"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

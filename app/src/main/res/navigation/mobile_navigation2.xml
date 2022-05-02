@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_inicio"
-        android:name="com.import_mag.importmag.Fragments.InicioFragment"
+        android:name="."
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_inicio" />
 
     <fragment
         android:id="@+id/nav_categorias"
-        android:name="com.import_mag.importmag.Fragments.CategoriasFragment"
+        android:name="Fragments.CategoriasFragment"
         android:label="@string/menu_categorias"
         tools:layout="@layout/fragment_categorias" />
 
     <fragment
         android:id="@+id/nav_todos_productos"
-        android:name="com.import_mag.importmag.Fragments.TodosProductosFragment"
+        android:name="Fragments.TodosProductosFragment"
         android:label="@string/menu_todoProductos"
         tools:layout="@layout/fragment_todosproductos" />
 </navigation>

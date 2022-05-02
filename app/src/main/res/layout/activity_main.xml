@@ -12,8 +12,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FAFAFA">
+        android:layout_height="wrap_content">
 
     </androidx.appcompat.widget.Toolbar>
     <include
@@ -24,26 +23,28 @@
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="270dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/white"
+        android:background="@drawable/shape_drawer"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/main_nav_header"
-        app:menu="@menu/activity_main_drawer"
-        app:itemIconTint="@color/draweritems_color"
-        app:itemTextColor="@color/draweritems_color">
+        app:menu="@menu/menu_drawer"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="45dp"
                 android:gravity="center"
                 android:text="Síguenos en nuestras redes sociales!"
+                android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -52,36 +53,36 @@
 
             <ImageView
                 android:id="@+id/imgWPPicono"
-                android:layout_width="55dp"
-                android:layout_height="48dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginBottom="40dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="70dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgFBicono"
                 app:srcCompat="@drawable/wpplogo"></ImageView>
 
             <ImageView
                 android:id="@+id/imgFBicono"
-                android:layout_width="55dp"
-                android:layout_height="48dp"
-                android:layout_marginBottom="40dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="70dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imgWPPicono"
-                app:layout_constraintStart_toEndOf="@+id/imgINSicono"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/fb">
 
             </ImageView>
 
             <ImageView
                 android:id="@+id/imgINSicono"
-                android:layout_width="55dp"
-                android:layout_height="48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
 
-                android:layout_marginStart="20dp"
-                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="70dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imgFBicono"
                 app:srcCompat="@drawable/ins">
 
             </ImageView>

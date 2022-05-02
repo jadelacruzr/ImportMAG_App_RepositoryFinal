@@ -10,10 +10,11 @@
     <color name="grisclaro">#575757</color>
     <color name="reacoff">#D5D5D5</color>
     <color name="azulIntenso">#1E91F6</color>
+    <color name="grisfafafa">#FAFAFA</color>
 
-    <color name="mensajeok">#B34CA2CA</color>
-    <color name="mensaerror">#99D52664</color>
-    <color name="mensajeinfo">#992C2C2C</color>
+    <color name="mensajeok">#4CA2CA</color>
+    <color name="mensaerror">#FF4E8D</color>
+    <color name="mensajeinfo">#2C2C2C</color>
 
 
     <color name="colorPrimaryDark">#272626</color>

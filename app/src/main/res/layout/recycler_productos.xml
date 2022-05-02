@@ -45,7 +45,7 @@
             app:layout_constraintTop_toTopOf="@+id/imgProdsTodos" />
 
         <com.like.LikeButton
-            android:id="@+id/star_button"
+            android:id="@+id/btn_like"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:circle_end_color="@color/grisoscuro"
@@ -68,6 +68,7 @@
         android:id="@+id/txt_NombreProductoAll"
         android:layout_width="match_parent"
         android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/shadow"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
@@ -75,13 +76,14 @@
         android:paddingRight="5dp"
         android:text="TextView"
         android:textAlignment="center"
-        android:layout_marginBottom="10dp"
         android:textColor="#FFFFFF"
         android:textSize="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/clpr"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/clpr"
-        app:layout_constraintTop_toBottomOf="@+id/clpr" />
+        app:layout_constraintTop_toBottomOf="@+id/clpr"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

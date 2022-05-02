@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Sobre Nosotros"
+        android:id="@+id/nav_SobreNos"
+        android:icon="@drawable/ic_sobrenos"
+       />
+    <item
+        android:title="Mi cuenta"
+        android:id="@+id/navMicuenta"
+        android:icon="@drawable/ic_micuenta"
+        />
+
+
+</menu>

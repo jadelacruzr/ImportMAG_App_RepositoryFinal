@@ -24,24 +24,32 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-                <EditText
-                    android:id="@+id/emailLogText"
-                    android:layout_width="300dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="60dp"
-                    android:background="@drawable/login_name"
-                    android:ems="10"
-                    android:hint="@string/strmail"
-                    android:inputType="textEmailAddress"
-                    android:paddingStart="55dp"
-                    android:paddingEnd="10dp"
-                    android:text="andrewsacm1pt@gmail.com"
-                    android:textColorHint="@android:color/darker_gray"
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ddd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="30dp"
+                    app:endIconMode="clear_text"
+                    app:hintEnabled="false"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.495"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                    app:startIconDrawable="@drawable/ic_email">
+
+                    <EditText
+                        android:id="@+id/emailLogText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="andrewsacm1pt@gmail.com"
+                        android:background="@drawable/forma_campotexto"
+                        android:hint="@string/strmail"
+                        android:inputType="textEmailAddress" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
 
                 <TextView
                     android:id="@+id/enlaceRegistro"
@@ -50,8 +58,9 @@
                     android:layout_marginTop="10dp"
                     android:contentDescription="@string/sinnombre"
                     android:fontFamily="sans-serif-black"
+                    android:textAlignment="center"
                     android:scaleType="fitCenter"
-                    android:text="¿No tiene una cuenta? Cree una aquí "
+                    android:text="¿No tiene una cuenta? \n Registrarse aquí "
                     android:textColor="@color/azulclaroimport"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -72,35 +81,33 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/enlaceRegistro"
-                    app:srcCompat="@drawable/btn_ingresar" />
+                    app:layout_constraintTop_toBottomOf="@+id/enlaceRegistro" />
 
-                <EditText
-                    android:id="@+id/passwordLogText"
-                    android:layout_width="300dp"
-                    android:layout_height="60dp"
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/d4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/login_password"
-                    android:ems="10"
-                    android:hint="@string/strpass"
-                    android:inputType="textPassword"
-                    android:paddingStart="60dp"
-                    android:paddingEnd="50dp"
-                    android:text="123456789"
-                    android:textColorHint="@android:color/darker_gray"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="30dp"
+                    app:endIconMode="password_toggle"
+                    app:hintEnabled="false"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/emailLogText" />
+                    app:layout_constraintTop_toBottomOf="@+id/ddd"
+                    app:startIconDrawable="@drawable/ic_candado">
 
-                <ImageView
-                    android:id="@+id/salirInicioSesion"
-                    android:layout_width="38dp"
-                    android:layout_height="33dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_cerrar" />
+                    <EditText
+                        android:id="@+id/passwordLogText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="123456789"
+                        android:background="@drawable/forma_campotexto"
+                        android:hint="@string/strpass"
+                        android:inputType="textPassword"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
 
                 <TextView
                     android:id="@+id/olvidarContraseñaView"
@@ -108,32 +115,20 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="Olvido su contraseña?"
+                    android:text="¿Olvido su contraseña?"
                     android:textColor="@color/azulclaroimport"
                     app:layout_constraintEnd_toEndOf="parent"
 
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/passwordLogText" />
+                    app:layout_constraintTop_toBottomOf="@+id/d4" />
 
-                <CheckBox
-                    android:id="@+id/checkViewPass"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="12dp"
-                    android:buttonTint="#404547"
-                    android:shadowColor="#373737"
-                    android:textColor="#3C3C3C"
-                    app:layout_constraintBottom_toBottomOf="@+id/passwordLogText"
-                    app:layout_constraintEnd_toEndOf="@+id/passwordLogText"
-                    app:layout_constraintTop_toTopOf="@+id/passwordLogText" />
-
-                <ImageView
+              <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="132dp"
-                    android:layout_height="96dp"
-                    android:layout_marginTop="80dp"
-                    app:layout_constraintEnd_toEndOf="@+id/emailLogText"
-                    app:layout_constraintStart_toStartOf="@+id/emailLogText"
+                    android:layout_width="180dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintEnd_toEndOf="@+id/ddd"
+                    app:layout_constraintStart_toStartOf="@+id/ddd"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/log2sinfondo" />
             </androidx.constraintlayout.widget.ConstraintLayout>

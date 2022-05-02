@@ -1,5 +1,7 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'kotlin-android'
 }
 
 android {
@@ -7,7 +9,7 @@ android {
     buildToolsVersion "26.0.0"
 
     defaultConfig {
-        applicationId "com.import_mag.importmag"
+        applicationId "com.importmag"
         minSdkVersion 27
         targetSdkVersion 29
         versionCode 1
@@ -67,7 +69,11 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.5.2'
     //GIFT
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
-    //cookies store
+
+    //FIREBASE/NOTIFICATION PUSH
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
 
 
 }

@@ -18,7 +18,7 @@
 
     <string name="tituloeditlistfav">Renombrar lista de favoritos</string>
     <string name="tituloBiscarProd">Buscar Producto</string>
-    <string name="nomlistadefavs">Nombre de la lista de favoritos</string>
+    <string name="nomlistadefavs">Nombre de la lista de favoritos:</string>
 
     <string name="crearListFav">Crear lista de favoritos</string>
 

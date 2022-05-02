@@ -7,24 +7,24 @@
 
     <fragment
         android:id="@+id/nav_inicio"
-        android:name="com.import_mag.importmag.Fragments.InicioFragment"
+        android:name="com.importmag.Fragments.InicioFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_inicio" />
 
     <fragment
         android:id="@+id/nav_categorias"
-        android:name="com.import_mag.importmag.Fragments.CategoriasFragment"
+        android:name="com.importmag.Fragments.CategoriasFragment"
         android:label="@string/menu_categorias"
         tools:layout="@layout/fragment_categorias" />
 
     <fragment
         android:id="@+id/nav_todos_productos"
-        android:name="com.import_mag.importmag.Fragments.TodosProductosFragment"
+        android:name="com.importmag.Fragments.TodosProductosFragment"
         android:label="@string/menu_todoProductos"
         tools:layout="@layout/fragment_todosproductos" />
     <fragment
         android:id="@+id/nav_favoritos"
-        android:name="com.import_mag.importmag.Fragments.FavoritosFragment"
+        android:name="com.importmag.Fragments.FavoritosFragment"
         android:label="@string/menu_favs"
         tools:layout="@layout/fragment_favoritos" />
 </navigation>

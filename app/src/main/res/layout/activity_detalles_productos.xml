@@ -12,7 +12,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:id="@+id/btnCotizar"
+            android:id="@+id/btnWppMirianAnd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
@@ -66,17 +66,17 @@
 
                 <TextView
                     android:id="@+id/imgh"
+                    style="@style/TextAppearance.AppCompat.Title"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="60dp"
                     android:fontFamily="@font/istok_web"
                     android:gravity="center"
                     android:text="Detalles"
                     android:textAlignment="center"
-                    android:textSize="21dp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/btnCerrar"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -172,7 +172,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <com.like.LikeButton
-                        android:id="@+id/star_button"
+                        android:id="@+id/btn_like"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:circle_end_color="@color/grisoscuro"

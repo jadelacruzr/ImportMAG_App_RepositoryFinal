@@ -4,7 +4,7 @@
 >
 
     <item
-        android:id="@+id/itm_login"
+        android:id="@+id/itm_login_out"
         android:orderInCategory="100"
         android:icon="@drawable/ic_login"
         android:title="@string/action_loggin"

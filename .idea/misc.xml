@@ -27,6 +27,7 @@
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_candado.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_carrito.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_cerrar.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_circuloperfil.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_compartir.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_copyport.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_cotizar.xml" value="0.26614583333333336" />
@@ -44,14 +45,18 @@
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_slider_dot_off.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_slider_dot_on.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_sumprod.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_whatsapp_icon.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/ic_wtspp.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/navbottom_redondeado.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shadow.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_cant_imgs.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_drawer.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_headdrawer.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_img_detalles.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_sliderinicio.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_toast_error.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_toast_info.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/shape_ventatas_popout.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/side_nav_bar.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/slider_indicator_selected.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/drawable/slider_indicator_unselected.xml" value="0.26614583333333336" />
@@ -59,16 +64,23 @@
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_cat_prods.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_detalles_productos.xml" value="0.264" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_editar_list_favs.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_editar_perfil.xml" value="0.264" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_favorito_detalles.xml" value="0.25" />
-        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_login.xml" value="0.4" />
-        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_nueva_lista.xml" value="0.25" />
-        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_perfil_cliente.xml" value="0.25" />
-        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_registrarse.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_perfil_cliente.xml" value="0.264" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_registrarse.xml" value="0.264" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_reset_contrasena.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_sobrenos.xml" value="0.4" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_ventana_agregar_like.xml" value="0.264" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_ventana_buscar.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_ventana_cambiar_contra.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_ventana_editar_list_favs.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_ventana_eliminar_prod_fav.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/activity_ventana_nueva_lista.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/categorias_recycler.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_categorias.xml" value="0.25" />
@@ -76,6 +88,7 @@
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_favoritos.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_inicio.xml" value="0.264" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_prueba.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_prueba2.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_recyclerproductos.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_sobrenos.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/fragment_todosproductos.xml" value="0.25" />
@@ -83,8 +96,10 @@
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/main_content.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/main_nav_header.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/productos_destacados.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/recycler_agg_like.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/recycler_categorias.xml" value="0.264" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/recycler_categoriasInicio.xml" value="0.4" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/recycler_categorias_inicio.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/recycler_favoritos.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/recycler_productos.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/layout/recycler_productos_destacados.xml" value="0.264" />
@@ -100,6 +115,8 @@
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/menu/main.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/menu/menu_bottom.xml" value="0.25" />
+        <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/menu/menu_drawer.xml" value="0.25" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/andre/Documents/APP/ImportMAGAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14322916666666666" />
         <entry key="..\:/Users/andre/OneDrive - Universidad Tecnica del Norte/IMPORTMAG/APP/ImportMAGAPP/app/src/main/res/drawable/ic_buscar.xml" value="0.2203125" />

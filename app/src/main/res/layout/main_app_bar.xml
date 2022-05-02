@@ -57,7 +57,7 @@
         android:tooltipText="hola"
         app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="bottom|center"
-        app:menu="@menu/activity_main_drawer"
+        app:menu="@menu/menu_bottom"
         />
 
     <include
